@@ -1,0 +1,2 @@
+imu:imu_tools/imu_complementary_filter:imu_tools/imu_tools:imu_tools/rviz_imu_plugin:mycar_description:mycar_start:nav:robot_pose_ekf:ros_arduino_bridge-indigo-devel/ros_arduino_bridge:ros_arduino_bridge-indigo-devel/ros_arduino_firmware:ros_arduino_bridge-indigo-devel/ros_arduino_msgs:ros_arduino_bridge-indigo-devel/ros_arduino_python:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/Smart_car/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Smart_car/install -G Unix Makefiles

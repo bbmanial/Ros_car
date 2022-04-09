@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/ubuntu/Smart_car/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/ubuntu/Smart_car/src/mycar_start/include/**",
+                "/home/ubuntu/Smart_car/src/imu/include/**",
+                "/home/ubuntu/Smart_car/src/odom_trans/include/**",
+                "/home/ubuntu/Smart_car/src/robot_pose_ekf/include/**",
+                "/home/ubuntu/Smart_car/src/rplidar_ros/include/**",
+                "/usr/include/**",
+                "/opt/ros/melodic/include"
+            ],
+            "name": "ROS"
+        }
+    ],
+    "version": 4
+}

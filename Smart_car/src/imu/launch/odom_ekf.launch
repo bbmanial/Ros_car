@@ -1,0 +1,6 @@
+<launch>
+   <node pkg="imu" type="odom_trans" name="odom_ekf_trans" output="screen">
+   	<!--remap from="input" to="/robot_pose_ekf/odom_combined"/>
+   	<remap from="output" to="/odom_ekf"-->
+   </node>
+</launch>

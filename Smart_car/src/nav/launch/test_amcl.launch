@@ -1,0 +1,6 @@
+<launch>
+
+        <include file="$( find nav )/launch/map_server.launch" />
+        <include file="$( find nav )/launch/amcl.launch" />
+
+</launch>

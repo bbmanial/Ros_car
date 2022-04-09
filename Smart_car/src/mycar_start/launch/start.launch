@@ -1,0 +1,9 @@
+
+<launch>
+        <include file="$(find ros_arduino_python)/launch/arduino.launch" />
+        <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+        <include file="$(find mycar_description)/launch/car.launch"/>
+        <include file="$(find imu)/launch/imu.launch"/>
+        <include file="$(find robot_pose_ekf)/robot_pose_ekf.launch"/>
+        <include file="$(find imu)/launch/odom_ekf.launch"/>
+</launch>

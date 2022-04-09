@@ -1,0 +1,10 @@
+global_costmap:
+  global_frame: map #µØÍ¼×ø±êÏµ
+  robot_base_frame: base_footprint #»úÆ÷ÈË×ø±êÏµ
+  # ÒÔ´ËÊµÏÖ×ø±ê±ä»»
+
+  update_frequency: 1.0 #´ú¼ÛµØÍ¼¸üÐÂÆµÂÊ
+  publish_frequency: 1.0 #´ú¼ÛµØÍ¼µÄ·¢²¼ÆµÂÊ
+  transform_tolerance: 0.5 #µÈ´ý×ø±ê±ä»»·¢²¼ÐÅÏ¢µÄ³¬Ê±Ê±¼ä
+
+  static_map: true # ÊÇ·ñÊ¹ÓÃÒ»¸öµØÍ¼»òÕßµØÍ¼·þÎñÆ÷À´³õÊ¼»¯È«¾Ö´ú¼ÛµØÍ¼£¬Èç¹û²»Ê¹ÓÃ¾²Ì¬µØÍ¼£¬Õâ¸ö²ÎÊýÎªfalse.

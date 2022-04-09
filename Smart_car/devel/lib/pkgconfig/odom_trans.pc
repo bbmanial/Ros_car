@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Smart_car/devel
+
+Name: odom_trans
+Description: Description of odom_trans
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

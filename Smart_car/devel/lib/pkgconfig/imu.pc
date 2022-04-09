@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Smart_car/devel
+
+Name: imu
+Description: Description of imu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
